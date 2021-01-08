@@ -6,6 +6,7 @@ module.exports = {
     main: "./src/index.js",
     vendor: "./src/vendor.js"
   },
+  //devtool: "none",
   module: {
     rules: [
       {

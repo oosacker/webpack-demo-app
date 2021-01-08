@@ -29,7 +29,10 @@ module.exports = merge(common, {
   },
   plugins: [
     new MiniCssExtractPlugin({ filename: "[name].[contentHash].css" }),
-    new CleanWebpackPlugin()
+    new CleanWebpackPlugin(),
+    // new HtmlWebpackPlugin({
+    //   template: "./src/template.html"
+    // })
   ],
   module: {
     rules: [
